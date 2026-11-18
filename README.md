@@ -1,5 +1,7 @@
 # Incremental Storage of French Address Snapshots with Apache Spark
 
+[![build](https://github.com/samichellia90-bit/bal-spark-incremental-pipeline/actions/workflows/tests.yml/badge.svg)](https://github.com/samichellia90-bit/bal-spark-incremental-pipeline/actions/workflows/tests.yml)
+
 A Spark batch pipeline in Java that ingests daily full snapshots of the French national address base (BAN / BAL), stores only the day-to-day differences, and can rebuild the complete dataset as of any past date.
 Differences are reversible (old and new row kept as JSON), so one full snapshot plus the partitioned diff table replace one full copy per day.
 
