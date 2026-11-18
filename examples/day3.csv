@@ -1,0 +1,5 @@
+id;numero;nom_voie;code_postal;code_insee;nom_commune
+00001_0001_00001;1;Rue des Exemples;01000;01001;Ville-Test
+00001_0001_00002;2 bis;Rue des Exemples;01000;01001;Ville-Test
+75001_0002_00010;10;Avenue Fictive Prolongee;75001;75101;Paris-Test
+13001_0004_00007;7;Boulevard Invente;13001;13201;Marseille-Test

@@ -1,0 +1,42 @@
+# Maven / build
+/target/
+*.class
+*.log
+hs_err_pid*
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Spark / Hive local state
+/bal.db/
+/bal_latest/
+/metastore_db*/
+/spark-warehouse/
+/derby.log
+/bal_last_input.txt
+/bal_latest_day.txt
+
+# Local outputs
+/evidence/
+/logs/
+/Captures/
+/photos/
+/outputs/
+/tmp_cmd/
+/tmp_unzip/
+/tmp_*
+
+# Local data drops (if copied into the repo)
+/dump-*/
+/adresses-france.csv
+/adresses-france.csv.gz

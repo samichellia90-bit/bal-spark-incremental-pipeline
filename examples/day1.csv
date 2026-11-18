@@ -1,0 +1,5 @@
+id;numero;nom_voie;code_postal;code_insee;nom_commune
+00001_0001_00001;1;Rue des Exemples;01000;01001;Ville-Test
+00001_0001_00002;2;Rue des Exemples;01000;01001;Ville-Test
+75001_0002_00010;10;Avenue Fictive;75001;75101;Paris-Test
+97101_0003_00005;5;Chemin Imaginaire;97100;97101;Outremer-Test
